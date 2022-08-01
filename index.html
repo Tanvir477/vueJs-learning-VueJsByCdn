@@ -21,8 +21,23 @@
      </h3>
      <p>
         get the source code at
+        <br>
+        <br>
      </p>
+     <p v-html="htmlCode"></p>
      <a v-bind:href="tutotialInfo.githubLink">Github</a>   
+
+     <p>Time:{{getCurrentTime()}} </p>
+     <br>
+     <p>Counter:{{count}} </p>
+
+     <button v-on:click="increase">Increment</button>
+     <button v-on:click="decrease">Decrement</button>
+
+     <!-- //'@' v-on er  Short poperty -->
+     <button @click="increase">Increment</button>
+     <button @click="decrease">Decrement</button>
+     
     </div>
 
 

@@ -21,3 +21,8 @@ header h2{
     padding: 32px;
     font-size: 22px;
 }
+button
+{
+    padding: 5px 11px;
+    margin: 5px;
+}
